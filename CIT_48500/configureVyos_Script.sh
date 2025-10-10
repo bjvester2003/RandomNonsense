@@ -14,7 +14,6 @@
 # ==============================
 set firewall global-options all-ping 'enable'                 # allow ping to firewall
 set firewall global-options broadcast-ping 'disable'
-set firewall global-options config-trap 'disable'
 set firewall global-options ipv6-receive-redirects 'disable'
 set firewall global-options ipv6-src-route 'disable'
 set firewall global-options ip-src-route 'disable'
@@ -301,3 +300,4 @@ set system package repository community username ''
 set system syslog global facility all level 'notice'
 set system syslog global facility protocols level 'debug'
 set system time-zone 'US/East-Indiana'
+
